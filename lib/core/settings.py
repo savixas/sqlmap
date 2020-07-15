@@ -447,7 +447,7 @@ SENSITIVE_DATA_REGEX = r"(\s|=)(?P<result>[^\s=]*\b%s\b[^\s]*)\s"
 SENSITIVE_OPTIONS = ("hostname", "answers", "data", "dnsDomain", "googleDork", "authCred", "proxyCred", "tbl", "db", "col", "user", "cookie", "proxy", "fileRead", "fileWrite", "fileDest", "testParameter", "authCred", "sqlQuery", "requestFile")
 
 # Maximum number of threads (avoiding connection issues and/or DoS)
-MAX_NUMBER_OF_THREADS = 10
+MAX_NUMBER_OF_THREADS = 10000000
 
 # Minimum range between minimum and maximum of statistical set
 MIN_STATISTICAL_RANGE = 0.01
